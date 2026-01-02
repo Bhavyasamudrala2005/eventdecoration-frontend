@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Event Decoration Items</string>
+
+    <!-- Add Equipment Categories -->
+    <string-array name="categories_array">
+        <item>Select Category</item>
+        <item>Audio</item>
+        <item>Lighting</item>
+        <item>Decoration</item>
+        <item>Furniture</item>
+    </string-array>
+
+    <string name="chair_image">Chair Image</string>
+    <string name="plastic_chairs">Plastic Chairs</string>
+    <string name="standard_seating">Standard Seating</string>
+    <string name="star_icon">Star Icon</string>
+    <string name="_4_2_56_reviews">4.2 • 56 reviews</string>
+    <string name="available">Available</string>
+    <string name="_100_day">₹100/day</string>
+    <string name="view_details">View Details</string>
+    <string name="back">Back</string>
+    <string name="limited">Limited</string>
+    <string name="speaker_id">ID: SPK003</string>
+    <string name="stage_speakers">Stage Speakers</string>
+    <string name="rating_reviews">4.8 • 15 reviews</string>
+    <string name="price_per_day">Price per day</string>
+    <string name="price_1000">₹1000</string>
+    <string name="specifications">Specifications</string>
+    <string name="speaker_specs">3000W, Line array system, Professional grade</string>
+    <string name="type">Type</string>
+    <string name="category">Category</string>
+    <string name="concert_grade">Concert Grade</string>
+    <string name="speakers">Speakers</string>
+    <string name="quantity">Quantity</string>
+    <string name="one">1</string>
+    <string name="duration_days">Duration (days)</string>
+    <string name="total_amount">Total Amount</string>
+    <string name="total_amount_calculation">1 item(s) x 1 day(s)</string>
+    <string name="book_now">Book Now</string>
+    <string name="back_button_description">Back button</string>
+    <string name="speaker_image_description">Speaker image</string>
+    <string name="star_icon_description">Star icon</string>
+    <string name="minus_button_description">Minus button</string>
+    <string name="plus_button_description">Plus button</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="title_cart">Cart</string>
+    <string name="title_profile">Profile</string>
+
+</resources>

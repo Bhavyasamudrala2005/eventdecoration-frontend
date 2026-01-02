@@ -1,0 +1,11 @@
+<resources>
+    <string-array name="equipment_categories">
+        <item>Speakers</item>
+        <item>Carpets</item>
+        <item>Tents</item>
+        <item>Cooking Vessels</item>
+        <item>Chairs</item>
+        <item>Hospitality Items</item>
+        <item>Decoration Items</item>
+    </string-array>
+</resources>

@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/chair_card"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+    app:cardCornerRadius="16dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp">
+
+        <ImageView
+            android:id="@+id/chair_image"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/ic_equipment_placeholder_purple"
+            android:contentDescription="@string/chair_image" />
+
+        <TextView
+            android:id="@+id/chair_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@+id/chair_image"
+            android:layout_marginStart="16dp"
+            android:text="@string/plastic_chairs"
+            android:textColor="@android:color/black"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/chair_type"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@+id/chair_image"
+            android:layout_below="@+id/chair_name"
+            android:layout_marginStart="16dp"
+            android:text="@string/standard_seating"
+            android:textColor="@android:color/darker_gray" />
+
+        <ImageView
+            android:id="@+id/star_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@+id/chair_image"
+            android:layout_below="@+id/chair_type"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="8dp"
+            android:src="@android:drawable/btn_star_big_on"
+            android:contentDescription="@string/star_icon" />
+
+        <TextView
+            android:id="@+id/rating_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@+id/star_icon"
+            android:layout_alignTop="@+id/star_icon"
+            android:layout_alignBottom="@+id/star_icon"
+            android:layout_marginStart="4dp"
+            android:gravity="center_vertical"
+            android:text="@string/_4_2_56_reviews"
+            android:textColor="@android:color/black" />
+
+        <TextView
+            android:id="@+id/availability_status"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/star_icon"
+            android:layout_toEndOf="@+id/chair_image"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/background_availability_available"
+            android:paddingStart="8dp"
+            android:paddingTop="4dp"
+            android:paddingEnd="8dp"
+            android:paddingBottom="4dp"
+            android:text="@string/available"
+            android:textColor="#4CAF50" />
+
+        <TextView
+            android:id="@+id/price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignBottom="@+id/availability_status"
+            android:text="@string/_100_day"
+            android:textColor="@android:color/black"
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/view_details_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/chair_image"
+            android:layout_marginTop="8dp"
+            app:backgroundTint="@color/button_purple"
+            android:text="@string/view_details"
+            android:textColor="@android:color/white" />
+
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>
